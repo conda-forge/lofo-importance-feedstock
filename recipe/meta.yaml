@@ -1,5 +1,5 @@
 {% set name = "lofo-importance" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lofo-importance-{{ version }}.tar.gz
-  sha256: 6d0a631f6d8ad74fa4b1b36e119d9681ebcce5b4ccae4744e497f7894e0d6420
+  sha256: 1803f6c5eff4f32732360496340b1f2c6f1c6d26bad4e8c110faef02d9746555
 
 build:
   noarch: python
